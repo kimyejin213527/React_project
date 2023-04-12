@@ -1,5 +1,5 @@
-import Say from "say.js";
+import EventPractice from "./EventPractice";
 const App = () => {
-  return <Say />;
+  return <EventPractice />;
 };
 export default App;
