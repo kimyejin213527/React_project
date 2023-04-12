@@ -1,5 +1,8 @@
-import IterationSample from "./IterationSample";
-const App = () => {
-  return <IterationSample />;
-};
+import { Component } from "react";
+import ValidationSample from "./ValidationSample";
+class App extends Component {
+  render() {
+    return <ValidationSample />;
+  }
+}
 export default App;
